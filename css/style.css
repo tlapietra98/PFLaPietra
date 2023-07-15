@@ -1,0 +1,293 @@
+
+/*! RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    padding: 5px;
+}
+
+main section > div{
+    padding: 10px;
+
+}
+
+
+/*! HEADER */
+
+header{
+    display: block;
+    
+
+}
+
+header .contenedor-barra-principal .logo-comiquerz{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+}
+
+header .contenedor-barra-principal .busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .contenedor-barra-principal .busqueda input{
+    width: 500px;
+    margin-right: 10px;
+}
+
+header .contenedor-barra-principal img{
+    height: 30px;
+    width: auto;
+
+
+}
+
+header .contenedor-barra-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: teal;
+
+
+    padding: 5px;
+}
+
+header .contenedor-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-style: solid;
+    border-color: grey;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 10px;
+}
+
+header nav ul li a{
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+    color:yellow;
+}
+
+
+/*! BODY */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*! FOOTER */
+
+footer{
+    height: 10vh;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+
+
+}
+
+footer .contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+}
+
+footer p{
+    font-size: small;
+}
+
+footer img{
+    height: 50px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}   
+
+footer div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer div .copyright{
+    display: flex;
+}
+
+footer div .links-redes{
+    display: flex;
+}
+
+
+
+/*! INDEX */
+
+.hero > div{
+    color: darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero div img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/*! CONTENEDORES COMICS, MANGA, LIBROS */
+
+.mini-galeria > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-tarjetas{
+    padding: 10px;
+}
+
+.mini-galeria div .contenedor-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria div .contenedor-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+/*! TARJETAS */
+
+.contenedor-tarjetas div{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-tarjetas div img{
+    height: 200px;
+    width: auto;
+}
+
+
+
+
+/*! CONTACTO */
+
+.seccion-nosotros div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.seccion-sucursal h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.seccion-sucursal div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.seccion-pedidos h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.seccion-pedidos > div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.seccion-pedidos div form{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.seccion-pedidos div form div{
+    padding: 5px;
+
+}
+
+
+.seccion-pedidos div form .form-column-opt{
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-pedidos div form div input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
