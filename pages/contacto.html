@@ -8,25 +8,20 @@
 </head>
 <body>
     <header>
-        
         <div class="contenedor-barra-principal">
-            <h1><a href="../index.html" class="logo-comiquerz">COMIQUER Z</a></h1>
-
+            <div class="logo-comiquerz">
+                <h1><a href="../index.html">COMIQUER Z</a></h1>
+            </div>
             <div class="busqueda">
                 <input type="text" placeholder="Buscar..">
                 <img src="../img/icono-lupa.png" alt="icono de lupa">
             </div>
-
-            <div>
+            <div class="notifs-y-carro">
                 <img src="../img/icono-carrito-de-compras.png" alt="icono de carro compras">
-    
                 <img src="../img/icono-campana.png" alt="icono de campana novedades">
             </div>
-
         </div>
-
         <div class="contenedor-nav">
-
             <nav>
                 <ul>
                     <li><a href="../pages/comics.html">COMICS</a></li>
@@ -36,37 +31,27 @@
                     <li><a href="../pages/preventa.html">PREVENTA</a></li>
                 </ul>
             </nav>
-
         </div>
-        
-        
     </header>
 
     <main>
-
         <section class="seccion-nosotros">
-
             <div>
                 <h2>Quienes somos?</h2>
-                
                 <p>COMIQUER Z es una tienda de comics y manga fundada en 2023 en Capital Federal con el objetivo de 
                 introducir más gente al mundo de los comics y facilitar el acceso a comics y manga para los aficionados argentinos.</p>
             </div>
-
         </section>
 
         <section class="seccion-contacto">
             <div>
                 <!--info de contacto como mails y telefono --> 
-                
             </div>
         </section>
 
         <section class="seccion-sucursal">
-            
             <div>
                 <h2>Visita nuestra sucursal!</h2>
-                
                 <div>
                     <h3>Capital Federal</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.209877867791!2d-58.375635!3d-34.598854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacbb0af407d%3A0x5935f7f4ea6c1fe3!2sAv.%20C%C3%B3rdoba%20616%2C%20C1054AAS%20CABA!5e0!3m2!1sen!2sar!4v1689041506219!5m2!1sen!2sar" 
@@ -75,50 +60,60 @@
             </div>
         </section>
 
-
-
         <section class="seccion-pedidos">
             <div>
                 <h2>Buscas algo en particular?</h2>
-                
                 <p>COMIQUER Z te puede ayudar a conseguir ese comic que venis buscando! Escribinos debajo con tus datos y el producto
                 que andas buscando y vamos a ponernos en contacto para ver de ayudarte.</p>
     
-                <form action="" method="" enctype="">
-                    <div>
+                <form action="" method="" enctype="" class="form-pedidos">
+                    <div class="formgrid-item1">
                         <label for="nombre">Nombre:</label>
+                    </div>
+                    <div class="formgrid-item2">
                         <input type="text">
                     </div>
-                    <div>
+
+                    <div class="formgrid-item3">
                         <label for="apellido">Apellido:</label>
+                    </div>
+                    <div class="formgrid-item4">
                         <input type="text">
                     </div>
-                    <div>
+                    <div class="formgrid-item5">
                         <label for="correo">Correo:</label>
+                    </div>
+                    <div class="formgrid-item6">
                         <input type="email">
                     </div>
-                    <div class="form-column-opt">
+                    <div class="formgrid-item7">
                         <label for="tipo">Tipo de pedido:</label>
+                    </div>
+                    <div class="formgrid-item8">
                         <div>
                             <label for="comic">Comic</label>
                             <input type="radio" name="tipopedido">
-    
+                        </div>
+                        <div>
                             <label for="manga">Manga</label>
                             <input type="radio" name="tipopedido">
-    
+                        </div>
+                        <div> 
                             <label for="libro">Libro</label>
                             <input type="radio" name="tipopedido">
-    
+                        </div>
+                        <div>
                             <label for="otro">Otro</label>
                             <input type="radio" name="tipopedido">
                         </div>
-                        
                     </div>
-                    <div class="form-column-opt">
+                    <div class="formgrid-item9">
                         <label for="descripcion">Descripcion:</label>
+                    </div>
+                    <div class="formgrid-item10">
                         <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
                     </div>
-                    <div>
+                    <div class="formgrid-item11">
                         <input type="submit">
                         <input type="reset">
                     </div>
@@ -131,6 +126,10 @@
 
 
     </main>
+
+    <div class="whatsapp">
+        <img src="../img/logo-whatsapp3.png" alt="logo de whatsapp">
+    </div>
 
     <footer> 
         
