@@ -2,11 +2,15 @@
 /*! RESET */
 
 *{
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
+    line-height: normal;
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
     font-size: 15px;
+
+    
+    
 }    
 
 /*! TIPOGRAFIA */
@@ -16,9 +20,11 @@
 /*! BODY */
 
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
     background-image: url("../img/tienda-comic-5.jpg");
     background-color: black;
     background-repeat: no-repeat;
@@ -72,7 +78,7 @@ header{
     flex-direction: column;
     position: sticky;
     top: 0;
-    
+    z-index: 10;
 }
 
 
@@ -102,6 +108,13 @@ header .contenedor-barra-principal .logo-comiquerz h1 a{
     font-size: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: yellow;
+
+}
+
+header .contenedor-barra-principal .logo-comiquerz h1 a:hover{
+    
+    color: gold;
+    
 }
 
 header .contenedor-barra-principal .busqueda{
@@ -143,15 +156,20 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: white;
+    color: yellow;
     font-size: 20px;  
     font-weight: 400;
 }
 
+header nav ul li a:hover{
+    color: gold;
+}
 
 
 
 /*! MAIN */
+
+
 
 main section{
     width: 100%;
@@ -199,17 +217,15 @@ main section div{
 /*! FOOTER */
 
 footer{
-    margin-top: auto;
+    margin-top: auto !important;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     color: white;
-
-
 }
 
 footer .contenedor-footer{
-    /*display: flex;
-    justify-content: space-between;
-    align-items: end;*/
     padding: 10px;
     display: grid;
     grid-template-rows: 1fr;
@@ -253,7 +269,6 @@ footer div .links-redes{
 }
 
 
-
 /*! INDEX */
 
 .hero > div{
@@ -282,6 +297,10 @@ footer div .links-redes{
 .mini-galeria > div{
     display: flex;
     flex-direction: column;
+}
+
+.mini-galeria div div div div img{
+    height: 70vh !important;
 }
 
 .galeria > div{
@@ -314,8 +333,8 @@ footer div .links-redes{
 
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
     width: 180px;
     display: flex;
     flex-direction: column;
@@ -337,6 +356,15 @@ footer div .links-redes{
     background-color: teal;
 
 }
+
+.boton1:hover{
+    color: gold;
+    background-color: rgb(25, 85, 85);
+}
+
+
+
+/*! BOOTSTRAP */
 
 
 
