@@ -1,0 +1,76 @@
+
+/* TIPOGRAFIA */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* RESET */
+*{
+    margin: 0 !important;
+    padding: 0;
+    line-height: normal;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
+    
+    h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        padding-right: 10px;
+        padding-left: 10px;
+    }    
+    
+    h2{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }    
+    
+    h3{
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }    
+    
+    p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }    
+    
+    a{
+        text-decoration: none;
+    }    
+    
+    ul{
+        list-style: none;
+    }    
+    
+}
+
+/* BODY */
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-image: url("../img/tienda-comic-5.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* WHATSAPP */
+    .whatsapp{
+        position: fixed;
+        bottom: 100px;
+        right: 50px;
+        img{
+            height: 60px;
+            width: auto;
+        }
+    }
+
+}

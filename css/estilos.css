@@ -1,0 +1,387 @@
+/* TIPOGRAFIA */
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+/* RESET */
+* {
+  margin: 0 !important;
+  padding: 0;
+  line-height: normal;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
+  font-size: 15px; }
+  * h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    padding-right: 10px;
+    padding-left: 10px; }
+  * h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  * h3 {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  * p {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  * a {
+    text-decoration: none; }
+  * ul {
+    list-style: none; }
+
+/* BODY */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  background-image: url("../img/tienda-comic-5.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* WHATSAPP */ }
+  body .whatsapp {
+    position: fixed;
+    bottom: 100px;
+    right: 50px; }
+    body .whatsapp img {
+      height: 60px;
+      width: auto; }
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 10; }
+  header .contenedor-barra-principal {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: teal;
+    padding: 5px; }
+    header .contenedor-barra-principal img {
+      height: 30px;
+      width: auto;
+      margin-right: 10px; }
+    header .contenedor-barra-principal .logo-comiquerz {
+      display: flex;
+      justify-content: start;
+      align-items: center; }
+      header .contenedor-barra-principal .logo-comiquerz h1 a {
+        font-size: 45px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: yellow; }
+        header .contenedor-barra-principal .logo-comiquerz h1 a:hover {
+          color: gold; }
+    header .contenedor-barra-principal .busqueda {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .contenedor-barra-principal .busqueda .input {
+        width: 80%;
+        margin-right: 10px; }
+    header .contenedor-barra-principal .notifs-y-carro {
+      display: flex;
+      justify-content: end;
+      align-items: center; }
+  header .contenedor-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-style: solid;
+    border-color: black; }
+    header .contenedor-nav nav ul {
+      display: flex; }
+      header .contenedor-nav nav ul li {
+        padding-right: 10px;
+        padding-left: 10px; }
+        header .contenedor-nav nav ul li a {
+          color: yellow;
+          font-size: 20px;
+          font-weight: 400; }
+          header .contenedor-nav nav ul li a:hover {
+            color: gold; }
+
+main section {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main section > div {
+    width: 80%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px; }
+  main section div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+/* INTRO o HERO */
+.hero h3 {
+  font-size: 20px; }
+
+.hero > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hero > div img {
+    width: 80%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+/* GALERIAS, TARJETAS, Y CONTENEDORES */
+.contenedor-tarjetas {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .contenedor-tarjetas .tarjeta {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 180px;
+    display: flex;
+    flex-direction: column; }
+    .contenedor-tarjetas .tarjeta img {
+      height: 200px;
+      width: auto; }
+
+.mini-galeria > div {
+  display: flex;
+  flex-direction: column; }
+
+.mini-galeria .carousel img {
+  height: 70vh !important;
+  width: auto; }
+
+.galeria > div {
+  display: flex;
+  flex-direction: column; }
+
+/* BOTONES */
+.boton1 {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  color: yellow;
+  background-color: teal; }
+  .boton1:hover {
+    color: gold;
+    background-color: #195555; }
+
+/*! CONTACTO */
+.seccion-nosotros div {
+  display: flex;
+  flex-direction: column; }
+
+.seccion-sucursal h2 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.seccion-sucursal > div > div {
+  width: 100%; }
+  .seccion-sucursal > div > div iframe {
+    width: 90%; }
+
+.seccion-sucursal div {
+  display: flex;
+  flex-direction: column; }
+
+.seccion-pedidos h2 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.seccion-pedidos > div {
+  display: flex;
+  flex-direction: column; }
+  .seccion-pedidos > div .form-pedidos {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px; }
+    .seccion-pedidos > div .form-pedidos div {
+      display: flex; }
+    .seccion-pedidos > div .form-pedidos input {
+      width: 80%; }
+    .seccion-pedidos > div .form-pedidos textarea {
+      width: 80%; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item1 {
+      grid-column: 1/2; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item2 {
+      grid-column: 2/4;
+      justify-content: start; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item3 {
+      grid-column: 1/2; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item4 {
+      grid-column: 2/4;
+      justify-content: start; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item5 {
+      grid-column: 1/2; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item6 {
+      grid-column: 2/4;
+      justify-content: start; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item7 {
+      grid-column: 1/4;
+      padding-top: 5px; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item8 {
+      grid-column: 1/4;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item9 {
+      grid-column: 1/4;
+      padding-top: 5px; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item10 {
+      grid-column: 1/4; }
+    .seccion-pedidos > div .form-pedidos .formgrid-item11 {
+      grid-column: 1/4; }
+      .seccion-pedidos > div .form-pedidos .formgrid-item11 input {
+        grid-column: 1/4;
+        width: 20%;
+        font-size: 15px;
+        margin-right: 5px;
+        margin-left: 5px; }
+
+footer {
+  margin-top: auto !important;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white; }
+  footer div {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px; }
+  footer p {
+    font-size: small;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+  footer img {
+    height: 50px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px; }
+  footer .contenedor-footer {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr; }
+    footer .contenedor-footer .direccion {
+      flex-direction: column;
+      justify-content: center;
+      align-items: start; }
+    footer .contenedor-footer .copyright {
+      justify-content: center;
+      align-items: end; }
+    footer .contenedor-footer .links-redes {
+      justify-content: end;
+      align-items: center; }
+
+/*! RESPONSIVE !*/
+@media screen and (max-width: 942px) {
+  p {
+    font-size: 16px; }
+  header .contenedor-barra-principal {
+    grid-template-columns: 1fr 0.8fr 1fr; }
+    header .contenedor-barra-principal .busqueda input {
+      font-size: 15px; }
+  .seccion-pedidos div .form-pedidos .formgrid-item11 input {
+    font-size: 10px; } }
+
+@media screen and (max-width: 847px) {
+  p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 751px) {
+  header {
+    position: static; }
+    header .contenedor-barra-principal {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 0.5fr;
+      grid-template-areas: "logo logo logo" ". search notifscarro";
+      padding-top: 0px;
+      padding-bottom: 0px; }
+      header .contenedor-barra-principal img {
+        height: 20px; }
+      header .contenedor-barra-principal .logo-comiquerz {
+        grid-area: logo;
+        justify-self: center; }
+      header .contenedor-barra-principal .busqueda {
+        grid-area: search; }
+        header .contenedor-barra-principal .busqueda input {
+          width: 100%;
+          font-size: 10px; }
+      header .contenedor-barra-principal .notifs-y-carro {
+        grid-area: notifscarro; }
+  .contenedor-nav nav ul li a {
+    font-size: 15px; } }
+
+@media screen and (max-width: 590px) {
+  header .contenedor-barra-principal {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo logo notifscarro"; }
+    header .contenedor-barra-principal .busqueda {
+      display: none; }
+  .whatsapp {
+    right: 20px; }
+    .whatsapp img {
+      height: 50px; }
+  footer .contenedor-footer img {
+    height: 35px; } }
+
+@media screen and (max-width: 400px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between; }
+    header .contenedor-barra-principal {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 0.2fr;
+      grid-template-areas: "logo" "notifscarro";
+      width: 100%; }
+      header .contenedor-barra-principal .logo-comiquerz {
+        width: 100%;
+        justify-content: center; }
+        header .contenedor-barra-principal .logo-comiquerz h1 a {
+          font-size: 35px; }
+      header .contenedor-barra-principal .notifs-y-carro {
+        justify-content: center;
+        padding-bottom: 10px; }
+    header .contenedor-nav {
+      width: 50%; }
+      header .contenedor-nav ul {
+        flex-direction: column; }
+  .whatsapp {
+    display: none; }
+  footer .contenedor-footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "direc logos logos" "copy copy copy"; }
+    footer .contenedor-footer .direccion {
+      grid-area: direc; }
+    footer .contenedor-footer .copyright {
+      grid-area: copy;
+      margin: 0px; }
+    footer .contenedor-footer .links-redes {
+      grid-area: logos; } }

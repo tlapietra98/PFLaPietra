@@ -1,0 +1,225 @@
+
+
+/* INTRO o HERO */
+
+.hero{
+
+    h3{
+        font-size: 20px;
+    }
+
+    & > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+            height: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+
+/* GALERIAS, TARJETAS, Y CONTENEDORES */
+
+.contenedor-tarjetas{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .tarjeta{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+
+        
+        img{
+            height: 200px;
+            width: auto;
+        }
+    }
+}
+
+.mini-galeria{
+    & > div{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .carousel{
+        img{
+            height: 70vh !important;
+            width: auto;
+        }
+    }
+} 
+
+.galeria{
+    & > div{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+
+/* BOTONES */
+
+.boton1{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: yellow;
+    background-color: teal;
+
+    &:hover{
+        color: gold;
+        background-color: rgb(25, 85, 85);
+    }
+}
+
+
+
+
+/*! CONTACTO */
+
+.seccion-nosotros {
+    
+    div{
+        display: flex;
+        flex-direction: column;
+
+}
+}
+
+.seccion-sucursal {
+    
+    h2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    & > div{
+        & > div{
+            width: 100%;
+            iframe{
+                width: 90%;
+            }
+        }
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+.seccion-pedidos {
+
+    h2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    & > div{
+        display: flex;
+        flex-direction: column;
+
+        .form-pedidos{
+            padding-top: 15px;
+            padding-bottom: 5px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 10px;
+            row-gap: 10px;
+
+            div{
+                display: flex;
+            }
+
+            input{
+                width: 80%;
+            }
+
+            textarea{
+                width: 80%;
+            }
+
+            .formgrid-item1{
+                grid-column: 1/2;
+            }
+
+            .formgrid-item2{
+                grid-column: 2/4;
+                justify-content: start;
+            }
+
+            .formgrid-item3{
+                grid-column: 1/2;
+            }
+
+            .formgrid-item4{
+                grid-column: 2/4;
+                justify-content: start;
+            }
+
+            .formgrid-item5{
+                grid-column: 1/2;
+            }
+
+            .formgrid-item6{
+                grid-column: 2/4;
+                justify-content: start;
+            }
+
+            .formgrid-item7{
+                grid-column: 1/4;
+                padding-top: 5px;
+            }
+
+            .formgrid-item8{
+                grid-column: 1/4;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .formgrid-item9{
+                grid-column: 1/4;
+                padding-top: 5px;
+            }
+
+            .formgrid-item10{
+                grid-column: 1/4;
+            }
+
+            .formgrid-item11{
+                grid-column: 1/4;
+
+                input{
+                    grid-column: 1/4;
+                    width: 20%;
+                    font-size: 15px;
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

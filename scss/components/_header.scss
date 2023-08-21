@@ -1,0 +1,94 @@
+
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    .contenedor-barra-principal{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
+        background-color: teal;
+        padding: 5px;
+
+        img{
+            height: 30px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .logo-comiquerz{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            h1{
+                a{
+                    font-size: 45px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    color: yellow;
+
+                    &:hover{
+                        color: gold;
+                    }
+                }
+            }
+        }
+
+        .busqueda{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .input{
+                width: 80%;
+                margin-right: 10px;
+            }
+        }
+
+        .notifs-y-carro{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+    }
+
+    .contenedor-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: rgba(0, 0, 0, 0.849);
+        
+        border-style: solid;
+        border-color: black;
+
+        nav{
+            ul{
+                display: flex;
+                
+                li{
+                    padding-right: 10px;
+                    padding-left: 10px;
+
+                    a{
+                        color: yellow;
+                        font-size: 20px;  
+                        font-weight: 400;
+
+                        &:hover{
+                            color: gold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
