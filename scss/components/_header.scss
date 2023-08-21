@@ -22,9 +22,8 @@ header{
         }
 
         .logo-comiquerz{
-            display: flex;
-            justify-content: start;
-            align-items: center;
+            
+            @include flexmix (flex,row,start,center);
 
             h1{
                 a{
@@ -40,9 +39,8 @@ header{
         }
 
         .busqueda{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            
+            @include flexmix (flex,row,center,center);
 
             .input{
                 width: 80%;
@@ -51,17 +49,15 @@ header{
         }
 
         .notifs-y-carro{
-            display: flex;
-            justify-content: end;
-            align-items: center;
+            @include flexmix (flex,row,end,center);
+
         }
 
     }
 
     .contenedor-nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
+        @include flexmix (flex,row,center,center);
         
         background-color: nth($colores-negro, 2);
         

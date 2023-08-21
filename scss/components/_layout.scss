@@ -9,10 +9,9 @@
     }
 
     & > div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+        @include flexmix (flex,column,center,center);
+
         img{
             width: 80%;
             height: auto;
@@ -28,9 +27,8 @@
 
 .contenedor-tarjetas{
     padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+    @include flexmix (flex,row,space-around,center);
     flex-wrap: wrap;
 
     .tarjeta{
@@ -195,9 +193,7 @@
 
             .formgrid-item8{
                 grid-column: 1/4;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
+                @include flexmix (flex,row,space-around,center);
             }
 
             .formgrid-item9{

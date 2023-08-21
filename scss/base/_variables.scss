@@ -40,4 +40,9 @@ $boton1:(
 
 /* MIXINS */
 
-
+@mixin flexmix($disvalue, $dirvalue, $jusvalue, $alivalue){
+    display: $disvalue;
+    flex-direction: $dirvalue;
+    justify-content: $jusvalue;
+    align-items: $alivalue;
+}

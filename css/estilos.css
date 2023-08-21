@@ -81,6 +81,7 @@ header {
       margin-right: 10px; }
     header .contenedor-barra-principal .logo-comiquerz {
       display: flex;
+      flex-direction: row;
       justify-content: start;
       align-items: center; }
       header .contenedor-barra-principal .logo-comiquerz h1 a {
@@ -91,6 +92,7 @@ header {
           color: gold; }
     header .contenedor-barra-principal .busqueda {
       display: flex;
+      flex-direction: row;
       justify-content: center;
       align-items: center; }
       header .contenedor-barra-principal .busqueda .input {
@@ -98,10 +100,12 @@ header {
         margin-right: 10px; }
     header .contenedor-barra-principal .notifs-y-carro {
       display: flex;
+      flex-direction: row;
       justify-content: end;
       align-items: center; }
   header .contenedor-nav {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.849);
@@ -150,6 +154,7 @@ main section {
 .contenedor-tarjetas {
   padding: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap; }
@@ -248,6 +253,7 @@ main section {
     .seccion-pedidos > div .form-pedidos .formgrid-item8 {
       grid-column: 1/4;
       display: flex;
+      flex-direction: row;
       justify-content: space-around;
       align-items: center; }
     .seccion-pedidos > div .form-pedidos .formgrid-item9 {
