@@ -1,5 +1,14 @@
-/* TIPOGRAFIA */
+/* COLORES */
+/* BOTONES */
+/* EXTENDS */
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+main section, main section div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* MIXINS */
+/* TIPOGRAFIA */
 /* RESET */
 * {
   margin: 0 !important;
@@ -112,10 +121,7 @@ header {
 
 main section {
   width: 100%;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  padding: 5px; }
   main section > div {
     width: 80%;
     padding: 10px;
@@ -124,10 +130,6 @@ main section {
     border-style: solid;
     border-color: black;
     border-radius: 20px; }
-  main section div {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
 
 /* INTRO o HERO */
 .hero h3 {

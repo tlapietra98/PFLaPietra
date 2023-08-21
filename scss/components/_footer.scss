@@ -4,8 +4,8 @@ footer{
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: nth($colores-negro, 1);
+    color: nth($colores, 5);
 
     div{
         display: flex;

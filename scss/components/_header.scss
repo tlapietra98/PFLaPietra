@@ -12,7 +12,7 @@ header{
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 2fr 1fr;
-        background-color: teal;
+        background-color: nth($colores, 1);
         padding: 5px;
 
         img{
@@ -30,10 +30,10 @@ header{
                 a{
                     font-size: 45px;
                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                    color: yellow;
+                    color: nth($colores, 3);
 
                     &:hover{
-                        color: gold;
+                        color: nth($colores, 4);
                     }
                 }
             }
@@ -63,10 +63,10 @@ header{
         justify-content: center;
         align-items: center;
         
-        background-color: rgba(0, 0, 0, 0.849);
+        background-color: nth($colores-negro, 2);
         
         border-style: solid;
-        border-color: black;
+        border-color: nth($colores-negro, 3);
 
         nav{
             ul{
@@ -77,12 +77,12 @@ header{
                     padding-left: 10px;
 
                     a{
-                        color: yellow;
+                        color: nth($colores, 3);
                         font-size: 20px;  
                         font-weight: 400;
 
                         &:hover{
-                            color: gold;
+                            color: nth($colores, 4);
                         }
                     }
                 }

@@ -1,0 +1,43 @@
+
+/* COLORES */
+
+$colores:
+teal,
+rgb(25, 85, 85),
+yellow,
+gold,
+white;
+
+$colores-negro:
+black,
+rgba(0, 0, 0, 0.849),
+black;
+
+
+
+
+/* BOTONES */
+$boton1:(
+    bgcolor: teal,
+    bgcolorHOV: rgb(25, 85, 85),
+    textcolor: yellow,
+    textcolorHOV: gold,
+    fuentesize: 15px,
+    borderadio: 10px,
+    paddingtodo: 5px,
+);
+    
+
+
+/* EXTENDS */
+
+%flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MIXINS */
+
+

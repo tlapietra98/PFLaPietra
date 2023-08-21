@@ -78,15 +78,15 @@
 /* BOTONES */
 
 .boton1{
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 10px;
-    color: yellow;
-    background-color: teal;
+    font-size: map-get($boton1, fuentesize);
+    padding: map-get($boton1, paddingtodo);
+    border-radius: map-get($boton1, borderadio);
+    color: map-get($boton1, textcolor);
+    background-color: map-get($boton1, bgcolor);
 
     &:hover{
-        color: gold;
-        background-color: rgb(25, 85, 85);
+        color: map-get($boton1, textcolorHOV);
+        background-color: map-get($boton1, bgcolorHOV);
     }
 }
 
