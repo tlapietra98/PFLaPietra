@@ -60,7 +60,10 @@ body {
     right: 50px; }
     body .whatsapp img {
       height: 60px;
-      width: auto; }
+      width: auto;
+      transition-duration: 1s; }
+      body .whatsapp img:hover {
+        height: 64px; }
 
 header {
   width: 100%;
@@ -87,9 +90,11 @@ header {
       header .contenedor-barra-principal .logo-comiquerz h1 a {
         font-size: 45px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: yellow; }
+        color: yellow;
+        transition-duration: 1s; }
         header .contenedor-barra-principal .logo-comiquerz h1 a:hover {
-          color: gold; }
+          color: gold;
+          font-size: 46px; }
     header .contenedor-barra-principal .busqueda {
       display: flex;
       flex-direction: row;
@@ -131,6 +136,10 @@ main section {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.849);
     color: white;
+    background: linear-gradient(black, rgba(0, 0, 0, 0.849));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     border-style: solid;
     border-color: black;
     border-radius: 20px; }
@@ -356,8 +365,14 @@ footer {
     right: 20px; }
     .whatsapp img {
       height: 50px; }
+      .whatsapp img:hover {
+        height: 54px; }
   footer .contenedor-footer img {
     height: 35px; } }
+
+@media screen and (max-width: 522px) {
+  header .contenedor-nav nav ul li a {
+    font-size: 15px; } }
 
 @media screen and (max-width: 400px) {
   header {
@@ -373,6 +388,8 @@ footer {
         justify-content: center; }
         header .contenedor-barra-principal .logo-comiquerz h1 a {
           font-size: 35px; }
+          header .contenedor-barra-principal .logo-comiquerz h1 a:hover {
+            font-size: 36px; }
       header .contenedor-barra-principal .notifs-y-carro {
         justify-content: center;
         padding-bottom: 10px; }

@@ -10,6 +10,7 @@ main{
             padding: 10px;
             background-color: nth($colores-negro, 2);
             color: nth($colores, 5);
+            @include lingradtwo(nth($colores-negro,1),nth($colores-negro,2));
             border-style: solid;
             border-color: nth($colores-negro, 3);
             border-radius: 20px;

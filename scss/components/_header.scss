@@ -31,8 +31,11 @@ header{
                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                     color: nth($colores, 3);
 
+                    transition-duration: 1s;
+
                     &:hover{
                         color: nth($colores, 4);
+                        font-size: 46px;
                     }
                 }
             }

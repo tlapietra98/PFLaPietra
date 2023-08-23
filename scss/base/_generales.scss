@@ -70,6 +70,12 @@ body{
         img{
             height: 60px;
             width: auto;
+            transition-duration: 1s;
+
+            
+            &:hover{
+                height: 64px;
+            }
         }
     }
 

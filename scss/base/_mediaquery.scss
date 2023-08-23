@@ -121,7 +121,11 @@
     .whatsapp{
         right: 20px;
         img{
-            height: 50px;        
+            height: 50px;     
+            
+            &:hover{
+                height: 54px;
+            }   
         }
     }
     
@@ -135,6 +139,30 @@
     }
     
     
+}
+
+
+@media screen and (max-width: 522px){
+    
+    header{
+        .contenedor-nav{
+            nav{
+                ul{
+                    
+                    li{
+
+    
+                        a{
+                            font-size: 15px;  
+
+                        }
+                    }
+                }
+            }
+        }
+
+    } 
+
 }
 
 @media screen and (max-width: 400px){
@@ -158,6 +186,9 @@
                 h1{
                     a{
                         font-size: 35px; 
+                        &:hover{
+                            font-size: 36px;
+                        }
                     }
                 }
             }

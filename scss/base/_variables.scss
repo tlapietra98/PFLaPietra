@@ -38,6 +38,7 @@ $boton1:(
 }
 
 
+
 /* MIXINS */
 
 @mixin flexmix($disvalue, $dirvalue, $jusvalue, $alivalue){
@@ -45,4 +46,11 @@ $boton1:(
     flex-direction: $dirvalue;
     justify-content: $jusvalue;
     align-items: $alivalue;
+}
+
+@mixin lingradtwo($color1, $color2){
+    background: linear-gradient($color1, $color2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
