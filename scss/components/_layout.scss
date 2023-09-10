@@ -88,9 +88,6 @@
     }
 }
 
-
-
-
 /*! CONTACTO */
 
 .seccion-nosotros {
@@ -193,7 +190,7 @@
 
             .formgrid-item8{
                 grid-column: 1/4;
-                @include flexmix (flex,row,space-around,center);
+                @include flexmix (flex,row,space-around,center);       
             }
 
             .formgrid-item9{
@@ -214,6 +211,7 @@
                     font-size: 15px;
                     margin-right: 5px;
                     margin-left: 5px;
+                    
                 }
             }
         }
