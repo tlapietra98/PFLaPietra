@@ -372,11 +372,11 @@ footer {
     grid-template-areas: "logo logo notifscarro"; }
     header .contenedor-barra-principal .busqueda {
       display: none; }
-  body .whatsapp {
+  main .whatsapp {
     right: 20px; }
-    body .whatsapp img {
+    main .whatsapp img {
       height: 50px; }
-      body .whatsapp img:hover {
+      main .whatsapp img:hover {
         height: 60px; }
   footer .contenedor-footer p {
     font-size: 12px; }
@@ -420,7 +420,7 @@ footer {
       width: 50%; }
       header .contenedor-nav ul {
         flex-direction: column; }
-  body .whatsapp {
+  main .whatsapp {
     display: none; }
   footer .contenedor-footer {
     grid-template-columns: 1fr 1fr 1fr;
